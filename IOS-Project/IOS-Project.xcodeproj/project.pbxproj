@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69812EFA29C3BDEE00FB2144 /* PopularFitnessRoutineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69812EF929C3BDEE00FB2144 /* PopularFitnessRoutineViewController.swift */; };
 		705FA14C29C35920001F5A7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705FA14B29C35920001F5A7E /* AppDelegate.swift */; };
 		705FA14E29C35920001F5A7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705FA14D29C35920001F5A7E /* SceneDelegate.swift */; };
 		705FA15029C35920001F5A7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705FA14F29C35920001F5A7E /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69812EF929C3BDEE00FB2144 /* PopularFitnessRoutineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularFitnessRoutineViewController.swift; sourceTree = "<group>"; };
 		705FA14829C35920001F5A7E /* IOS-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		705FA14B29C35920001F5A7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		705FA14D29C35920001F5A7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				E73E4C5329C3672A0074049D /* FoodViewController.swift */,
 				E73E4C5529C3673F0074049D /* CalenderViewController.swift */,
 				E73E4C5729C3674D0074049D /* SettingsViewController.swift */,
+				69812EF929C3BDEE00FB2144 /* PopularFitnessRoutineViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				E73E4C5429C3672A0074049D /* FoodViewController.swift in Sources */,
 				705FA14C29C35920001F5A7E /* AppDelegate.swift in Sources */,
 				E73E4C4B29C3660E0074049D /* HomePageViewController.swift in Sources */,
+				69812EFA29C3BDEE00FB2144 /* PopularFitnessRoutineViewController.swift in Sources */,
 				705FA14E29C35920001F5A7E /* SceneDelegate.swift in Sources */,
 				E73E4C4D29C3665D0074049D /* AddYourNewGoalViewController.swift in Sources */,
 			);
