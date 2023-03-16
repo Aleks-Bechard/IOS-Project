@@ -418,6 +418,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+<<<<<<< HEAD
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vDg-2o-nmJ">
                                 <rect key="frame" x="26" y="284" width="240" height="128"/>
                                 <color key="backgroundColor" systemColor="quaternaryLabelColor"/>
@@ -457,7 +458,6 @@
                             <constraint firstItem="Sa0-ag-sjz" firstAttribute="leading" secondItem="n9i-1f-bbe" secondAttribute="leading" id="NWx-wF-mQq"/>
                             <constraint firstAttribute="bottomMargin" secondItem="Xvv-UC-5rq" secondAttribute="bottom" constant="-26" id="RcT-sR-Op1"/>
                             <constraint firstItem="kRB-db-NP2" firstAttribute="trailing" secondItem="Xvv-UC-5rq" secondAttribute="trailing" constant="10" id="j0Y-Ao-EOO"/>
-                            <constraint firstItem="vDg-2o-nmJ" firstAttribute="top" secondItem="n9i-1f-bbe" secondAttribute="bottom" constant="55" id="j5T-xU-c9s"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="74H-f0-CBx"/>
