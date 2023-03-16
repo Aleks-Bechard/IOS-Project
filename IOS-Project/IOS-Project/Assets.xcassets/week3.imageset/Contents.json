@@ -3,16 +3,16 @@
     {
       "scale" : "1x",
       "idiom" : "universal",
-      "filename" : "addGoalButton.png"
-    },
-    {
-      "filename" : "addGoalButton@2x.png",
-      "scale" : "2x",
-      "idiom" : "universal"
+      "filename" : "week3.png"
     },
     {
       "idiom" : "universal",
-      "filename" : "addGoalButton@3x.png",
+      "scale" : "2x",
+      "filename" : "week3@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "week3@3x.png",
       "scale" : "3x"
     }
   ],

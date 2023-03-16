@@ -1,19 +1,19 @@
 {
   "images" : [
     {
-      "scale" : "1x",
       "idiom" : "universal",
-      "filename" : "addGoalButton.png"
+      "scale" : "1x",
+      "filename" : "reminderTime.png"
     },
     {
-      "filename" : "addGoalButton@2x.png",
       "scale" : "2x",
+      "filename" : "reminderTime@2x.png",
       "idiom" : "universal"
     },
     {
-      "idiom" : "universal",
-      "filename" : "addGoalButton@3x.png",
-      "scale" : "3x"
+      "filename" : "reminderTime@3x.png",
+      "scale" : "3x",
+      "idiom" : "universal"
     }
   ],
   "info" : {
