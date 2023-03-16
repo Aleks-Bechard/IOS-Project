@@ -435,6 +435,8 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+=======
+>>>>>>> afe5bb83a182fd54e94205bf6dd916411312ec6d
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xvv-UC-5rq">
                                 <rect key="frame" x="0.0" y="745" width="404" height="94"/>
                                 <state key="normal" title="Button"/>
@@ -451,13 +453,11 @@
                             <constraint firstItem="n9i-1f-bbe" firstAttribute="top" secondItem="Sa0-ag-sjz" secondAttribute="bottom" constant="16" id="9Xx-vS-vwR"/>
                             <constraint firstItem="Xvv-UC-5rq" firstAttribute="leading" secondItem="kRB-db-NP2" secondAttribute="leading" id="EqX-Dq-LkG"/>
                             <constraint firstItem="n9i-1f-bbe" firstAttribute="leading" secondItem="d9m-T3-Pwt" secondAttribute="leadingMargin" id="FKl-NH-M5h"/>
-                            <constraint firstItem="vDg-2o-nmJ" firstAttribute="leading" secondItem="kRB-db-NP2" secondAttribute="leading" constant="26" id="FTX-aX-CJ0"/>
                             <constraint firstItem="Sa0-ag-sjz" firstAttribute="centerX" secondItem="d9m-T3-Pwt" secondAttribute="centerX" id="HPV-sH-t1l"/>
                             <constraint firstItem="Sa0-ag-sjz" firstAttribute="leading" secondItem="n9i-1f-bbe" secondAttribute="leading" id="NWx-wF-mQq"/>
                             <constraint firstAttribute="bottomMargin" secondItem="Xvv-UC-5rq" secondAttribute="bottom" constant="-26" id="RcT-sR-Op1"/>
                             <constraint firstItem="kRB-db-NP2" firstAttribute="trailing" secondItem="Xvv-UC-5rq" secondAttribute="trailing" constant="10" id="j0Y-Ao-EOO"/>
                             <constraint firstItem="vDg-2o-nmJ" firstAttribute="top" secondItem="n9i-1f-bbe" secondAttribute="bottom" constant="55" id="j5T-xU-c9s"/>
-                            <constraint firstItem="kRB-db-NP2" firstAttribute="trailing" secondItem="vDg-2o-nmJ" secondAttribute="trailing" constant="148" id="kVT-FM-lDL"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="74H-f0-CBx"/>
@@ -607,12 +607,15 @@
         <image name="week4" width="348" height="32"/>
         <image name="week5" width="243.5" height="35"/>
         <image name="weekdays" width="348" height="27"/>
+<<<<<<< HEAD
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="quaternaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.17647058823529413" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
+=======
+>>>>>>> afe5bb83a182fd54e94205bf6dd916411312ec6d
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
