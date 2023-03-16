@@ -13,7 +13,6 @@
 		705FA15329C35920001F5A7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 705FA15129C35920001F5A7E /* Main.storyboard */; };
 		705FA15529C35921001F5A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705FA15429C35921001F5A7E /* Assets.xcassets */; };
 		705FA15829C35921001F5A7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 705FA15629C35921001F5A7E /* LaunchScreen.storyboard */; };
-		E73E4C4929C364CE0074049D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E4C4829C364CE0074049D /* TabBarController.swift */; };
 		E73E4C4B29C3660E0074049D /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E4C4A29C3660E0074049D /* HomePageViewController.swift */; };
 		E73E4C4D29C3665D0074049D /* AddYourNewGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E4C4C29C3665D0074049D /* AddYourNewGoalViewController.swift */; };
 		E73E4C5029C3670E0074049D /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73E4C4F29C3670E0074049D /* GoalsViewController.swift */; };
@@ -32,7 +31,6 @@
 		705FA15429C35921001F5A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		705FA15729C35921001F5A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		705FA15929C35921001F5A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E73E4C4829C364CE0074049D /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		E73E4C4A29C3660E0074049D /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		E73E4C4C29C3665D0074049D /* AddYourNewGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddYourNewGoalViewController.swift; sourceTree = "<group>"; };
 		E73E4C4F29C3670E0074049D /* GoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				705FA14F29C35920001F5A7E /* ViewController.swift */,
-				E73E4C4829C364CE0074049D /* TabBarController.swift */,
 				E73E4C4A29C3660E0074049D /* HomePageViewController.swift */,
 				E73E4C4C29C3665D0074049D /* AddYourNewGoalViewController.swift */,
 				E73E4C4F29C3670E0074049D /* GoalsViewController.swift */,
@@ -175,7 +172,6 @@
 				E73E4C5829C3674D0074049D /* SettingsViewController.swift in Sources */,
 				705FA15029C35920001F5A7E /* ViewController.swift in Sources */,
 				E73E4C5229C3671F0074049D /* FitnessRoutinesViewController.swift in Sources */,
-				E73E4C4929C364CE0074049D /* TabBarController.swift in Sources */,
 				E73E4C5429C3672A0074049D /* FoodViewController.swift in Sources */,
 				705FA14C29C35920001F5A7E /* AppDelegate.swift in Sources */,
 				E73E4C4B29C3660E0074049D /* HomePageViewController.swift in Sources */,
