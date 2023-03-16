@@ -1,19 +1,19 @@
 {
   "images" : [
     {
-      "scale" : "1x",
       "idiom" : "universal",
-      "filename" : "addGoalButton.png"
+      "filename" : "setttingHeader.png",
+      "scale" : "1x"
     },
     {
-      "filename" : "addGoalButton@2x.png",
       "scale" : "2x",
-      "idiom" : "universal"
+      "idiom" : "universal",
+      "filename" : "setttingHeader@2x.png"
     },
     {
+      "scale" : "3x",
       "idiom" : "universal",
-      "filename" : "addGoalButton@3x.png",
-      "scale" : "3x"
+      "filename" : "setttingHeader@3x.png"
     }
   ],
   "info" : {
