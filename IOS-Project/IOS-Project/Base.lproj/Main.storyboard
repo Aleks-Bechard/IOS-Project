@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qYc-NI-d1v">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qYc-NI-d1v">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -32,7 +31,7 @@
                 <navigationController id="V6m-km-AwC" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="I8g-64-tcU"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zVA-QM-mkG">
-                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -51,23 +50,100 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="header" translatesAutoresizingMaskIntoConstraints="NO" id="MBL-pq-6dx">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header" translatesAutoresizingMaskIntoConstraints="NO" id="MBL-pq-6dx">
                                 <rect key="frame" x="20" y="47" width="374" height="130"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="XQG-Xs-DF4"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Popular Fitness Routines" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxF-AV-PJj">
+                                <rect key="frame" x="20" y="185" width="244" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="k9U-UN-3sx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Popular Fitness Routines" translatesAutoresizingMaskIntoConstraints="NO" id="Vjs-u4-g4k">
+                                <rect key="frame" x="0.0" y="214" width="435" height="206"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Goals For This Week" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bbx-hN-drt">
+                                <rect key="frame" x="20" y="453" width="203" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="Z5g-jt-l9O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9C-F0-U3F">
+                                <rect key="frame" x="20" y="514" width="367" height="69"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="goal1" title=""/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mmg-5C-9AO">
+                                <rect key="frame" x="20" y="578" width="367" height="69"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="goal2" title=""/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jKN-qX-xwM">
+                                <rect key="frame" x="20" y="645" width="367" height="69"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="goal3"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uIg-PM-xkC">
+                                <rect key="frame" x="219" y="714" width="168" height="51"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="addGoalButton" title=""/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangle781" translatesAutoresizingMaskIntoConstraints="NO" id="m8K-Uf-MhO">
+                                <rect key="frame" x="-80" y="489" width="567" height="312"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3Wp-s2-fzm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3Wp-s2-fzm" firstAttribute="bottom" secondItem="uIg-PM-xkC" secondAttribute="bottom" constant="48" id="1Hh-2p-KyU"/>
+                            <constraint firstItem="MBL-pq-6dx" firstAttribute="leading" secondItem="pxF-AV-PJj" secondAttribute="leading" id="1Q8-kG-6a6"/>
+                            <constraint firstItem="MBL-pq-6dx" firstAttribute="trailing" secondItem="IFD-cv-vSX" secondAttribute="trailingMargin" id="4Na-9a-YJw"/>
+                            <constraint firstItem="jKN-qX-xwM" firstAttribute="trailing" secondItem="uIg-PM-xkC" secondAttribute="trailing" id="Cd9-rJ-tmB"/>
+                            <constraint firstItem="d9C-F0-U3F" firstAttribute="leading" secondItem="Mmg-5C-9AO" secondAttribute="leading" id="DQ4-Gh-DwU"/>
+                            <constraint firstItem="Vjs-u4-g4k" firstAttribute="leading" secondItem="3Wp-s2-fzm" secondAttribute="leading" id="EGr-9v-rlL"/>
+                            <constraint firstItem="jKN-qX-xwM" firstAttribute="top" secondItem="d9C-F0-U3F" secondAttribute="bottom" constant="62" id="EMV-9r-VVr"/>
+                            <constraint firstItem="uIg-PM-xkC" firstAttribute="top" secondItem="Mmg-5C-9AO" secondAttribute="bottom" constant="67" id="FDb-zY-TTm"/>
+                            <constraint firstItem="3Wp-s2-fzm" firstAttribute="trailing" secondItem="d9C-F0-U3F" secondAttribute="trailing" constant="27" id="G04-fF-evO"/>
+                            <constraint firstItem="Bbx-hN-drt" firstAttribute="leading" secondItem="d9C-F0-U3F" secondAttribute="leading" id="JZF-DU-DcU"/>
+                            <constraint firstItem="Vjs-u4-g4k" firstAttribute="top" secondItem="pxF-AV-PJj" secondAttribute="bottom" constant="1" id="K3q-KM-Y2E"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="m8K-Uf-MhO" secondAttribute="trailing" constant="-93" id="MhN-2X-Fh5"/>
+                            <constraint firstItem="pxF-AV-PJj" firstAttribute="leading" secondItem="Bbx-hN-drt" secondAttribute="leading" id="T5F-fu-NMR"/>
+                            <constraint firstItem="MBL-pq-6dx" firstAttribute="top" secondItem="IFD-cv-vSX" secondAttribute="topMargin" constant="-41" id="VHS-N7-o3o"/>
+                            <constraint firstItem="pxF-AV-PJj" firstAttribute="top" secondItem="MBL-pq-6dx" secondAttribute="bottom" constant="8" id="VnZ-YO-nA2"/>
+                            <constraint firstItem="Bbx-hN-drt" firstAttribute="top" secondItem="Vjs-u4-g4k" secondAttribute="bottom" constant="33" id="Z9l-nZ-j4B"/>
+                            <constraint firstItem="3Wp-s2-fzm" firstAttribute="bottom" secondItem="m8K-Uf-MhO" secondAttribute="bottom" constant="12" id="kqi-bt-DQq"/>
+                            <constraint firstItem="d9C-F0-U3F" firstAttribute="top" secondItem="Bbx-hN-drt" secondAttribute="bottom" constant="33" id="lhN-Hq-aoa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Vjs-u4-g4k" secondAttribute="trailing" constant="-41" id="ooJ-jV-HJO"/>
+                            <constraint firstItem="Mmg-5C-9AO" firstAttribute="leading" secondItem="jKN-qX-xwM" secondAttribute="leading" id="rsK-yW-00F"/>
+                            <constraint firstItem="m8K-Uf-MhO" firstAttribute="top" secondItem="Bbx-hN-drt" secondAttribute="bottom" constant="8" id="ulb-cL-QWl"/>
+                            <constraint firstItem="m8K-Uf-MhO" firstAttribute="centerX" secondItem="d9C-F0-U3F" secondAttribute="centerX" id="yLc-4E-VWH"/>
+                            <constraint firstItem="Mmg-5C-9AO" firstAttribute="top" secondItem="Bbx-hN-drt" secondAttribute="bottom" constant="97" id="zuk-9c-0qm"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ZjM-9W-koo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PWF-w3-kdP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2126.0869565217395" y="1614.5089285714284"/>
+            <point key="canvasLocation" x="-2127.536231884058" y="1614.5089285714284"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Popular Fitness Routines" width="377" height="199"/>
+        <image name="addGoalButton" width="144" height="36.5"/>
+        <image name="goal1" width="343" height="55"/>
+        <image name="goal2" width="343" height="54.5"/>
+        <image name="goal3" width="343" height="54.5"/>
         <image name="header" width="321" height="71"/>
+        <image name="rectangle781" width="358" height="294.5"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
